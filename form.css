@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppis",sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background: rgb(153, 0, 255);
@@ -31,7 +30,7 @@ main h2{
     position: relative;
 }
 
-main h2 ::before{
+main h2::before{
     content: '';
     position: absolute;
     height: 4px;
@@ -41,12 +40,17 @@ main h2 ::before{
     border-radius: 8px;
     background: linear-gradient(to right, rgb(153, 0, 255) , rgb(255, 0, 212));
 }
-input.field{
+
+
+.input-field{
     position: relative;
 
 }
-input.field input{
+.input-field input{
     outline: none;
     font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.7);
+}
+.input-field input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
 }
