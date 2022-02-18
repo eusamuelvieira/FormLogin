@@ -48,7 +48,11 @@ form{
 
 .input-field{
     position: relative;
+    
 
+}
+.input-field #email , #password{
+    width: 100%;
 }
 
 form .input-field:first-child{
